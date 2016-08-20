@@ -1,0 +1,51 @@
+\documentclass[%
+a4paper,% paper size
+pagesize,%
+12pt,% text size
+parskip=off,% inter-paragraph space, automatically sets paragraph indentation
+bibliography=totoc,% bibliography in the table or contents
+numbers=noenddot,%
+DIV=12,% margin settings
+twoside=semi,% right and left difference, but same margins
+headings=normal%headings=medium,% small headings
+]{scrartcl}
+
+\title{Sorting Standard Tibetan}
+\subtitle{History and Topography of Collation Algorithms}
+\author{Hélios Hildt (Université Bordeaux Montaigne) \and Élie Roux} 
+\date{\today}
+
+\usepackage{tib-articles}
+\usepackage[numbers,square]{natbib} % These need to be in this file!
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Ceci est un abstract!
+\end{abstract}
+
+\keywords{Tibetan, NLP, Collation, Unicode}
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+\subsection{Scope of the document}
+
+test citation : \cite{YisunTsikchen}
+
+\subsection{State of the Art}
+
+\section{Defining Standard Tibetan}
+
+\section{Historical considerations}
+
+\section{Topography of collation algorithms}
+
+\bibliographystyle{plainnat}
+\bibliography{tibliographyltx}
+\end{document}
