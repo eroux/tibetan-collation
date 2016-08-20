@@ -10,7 +10,7 @@
 
 \newfontfamily\tibetanfont[Script=Tibetan,Scale=0.9]{Noto Sans Tibetan}
 
-%\newfontfamily{\chinese}{Noto Sans CJK SC}
+\newfontface\chinesefont{Noto Sans CJK SC}
 
 \newfontfamily\libertineDisplay[Extension=.otf,
       BoldFont=LinLibertine_DR,%fake
@@ -30,7 +30,7 @@
 %% Default character protrusion is too big...
 \directlua{fonts.protrusions.setups.default.factor=0.5}
 
-\setmathfont{XITS Math}
+\setmathfont{xits-math.otf}
 \RequirePackage{libertine}
 
 % not sure it's useful
@@ -91,5 +91,5 @@
       \texttibetan{#1}%
 }
 \def\chinbib#1{%
-%\texttibetan{#1}%
+  {\chinesefont{#1}}%
 }
