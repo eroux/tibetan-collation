@@ -5,3 +5,7 @@ tibliographyltx.bib: tibliography/tibliography.bib
 
 article1.pdf: tibliographyltx.bib article1.tex tib-articles.sty
 	latexmk -lualatex article1.tex
+
+clean:
+	rm tibliographyltx.bib
+	latexmk -C -bibtex -lualatex article1.tex
