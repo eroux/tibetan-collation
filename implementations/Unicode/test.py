@@ -26,16 +26,16 @@ def testOrder(argList, testName):
 
 # Tests corresponding to all the prefix+superscript+main+suffix+second suffix possibilities,
 # see https://github.com/eroux/tibetan-spellchecker/blob/master/doc/standard-syllable-structure.md
-testOrder("ཀ ཀྭ ཀྱ ཀྲ ཀླ དཀ དཀྭ དཀྱ དཀྲ དཀླ བཀ བཀྭ བཀྱ བཀྲ བཀླ རྐ རྐྱ ལྐ སྐ སྐྱ སྐྲ བརྐ བརྐྱ བསྐ བསྐྱ བསྐྲ", "letter ཀ")
+testOrder("ཀ ཀྭ ཀྱ ཀྲ ཀླ དཀ དཀྭ དཀྱ དཀྲ བཀ བཀྭ བཀྱ བཀྲ བཀླ རྐ རྐྱ ལྐ སྐ སྐྱ སྐྲ བརྐ བརྐྱ བསྐ བསྐྱ བསྐྲ", "letter ཀ")
 testOrder("ཁ ཁྭ ཁྱ ཁྲ མཁ མཁྭ མཁྱ མཁྲ འཁ འཁྭ འཁྱ འཁྲ", "letter ཁ")
 testOrder("ག གྭ གྱ གྲ གྲྭ གླ དགྭ དགྱ དགྲ དགྲྭ བགྭ བགྱ བགྲ བགྲྭ བགླ མགྭ མགྱ མགྲ མགྲྭ འགྭ འགྱ འགྲ འགྲྭ རྒ རྒྱ ལྒ སྒ སྒྱ སྒྲ བརྒ བརྒྱ བསྒ བསྒྱ བསྒྲ", "letter ག")
 testOrder("ང རྔ ལྔ སྔ བརྔ བསྔ", "letter ང")
 testOrder("ཅ ཅྭ གཅ གཅྭ བཅ བཅྭ", "letter ཅ")
 testOrder("ཇ རྗ ལྗ བརྗ", "letter ཇ")
 testOrder("ཉ ཉྭ གཉྭ མཉྭ རྙ སྙ བརྙ བསྙ", "letter ཉ")
-testOrder("ཏ ཏྭ ཏྲ གཏྭ གཏྲ བཏྭ བཏྲ རྟ ལྟ སྟ བརྟ བལྟ བསྟ", "letter ཏ")
+testOrder("ཏ ཏྭ ཏྲ གཏྭ བཏྭ རྟ ལྟ སྟ བརྟ བལྟ བསྟ", "letter ཏ")
 testOrder("ཐ ཐྲ", "letter ཐ")
-testOrder("ད དྭ དྲ དྲྭ གདྭ བདྭ མདྭ འདྭ འདྲ འདྲྭ རྡ ལྡ སྡ བརྡ བལྡ བསྡ", "letter ད")
+testOrder("ད དྭ དྲ དྲྭ གདྭ བདྭ མདྭ མདྲོན འདྭ འདྲ འདྲྭ རྡ ལྡ སྡ བརྡ བལྡ བསྡ", "letter ད")
 testOrder("ན རྣ སྣ སྣྲ བརྣ བསྣ", "letter ན")
 testOrder("པ པྱ པྲ དཔྱ དཔྲ ལྤ སྤ སྤྱ སྤྲ", "letter པ")
 testOrder("ཕ ཕྱ ཕྱྭ ཕྲ འཕྱ འཕྱྭ འཕྲ", "letter ཕ")
