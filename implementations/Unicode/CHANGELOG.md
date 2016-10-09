@@ -11,6 +11,7 @@ The version numbers are those of the [CLDR](http://cldr.unicode.org/). It follow
  - fix rule containing twice the same code (U+0F39)
 
 ### Added
+ - many common sanskrit words (ཀརྨ་, པདྨ་, etc.) are now sorted in the same order as in the བོད་རྒྱ་ཚིག་མཛོད་ཆེན་མོ།. For more details, see first 23 lines of rules.txt.
  - U+0F62 = U+0F6A when followed with U+0F99 or U+0FB3 due to graphical equivalence
  - invalid vowel combinations: U+0F7B = U+0F7A U+0F7A and U+0F7D = U+0F7C U+0F7C
  - add theoretically possible but unattested དགྭ བགྭ མགྭ འགྭ གདྭ མདྭ འདྭ གནྭ མནྭ དམྭ and གསྭ
