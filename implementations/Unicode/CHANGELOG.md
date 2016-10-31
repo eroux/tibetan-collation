@@ -9,9 +9,10 @@ The version numbers are those of the [CLDR](http://cldr.unicode.org/). It follow
  - དམས་ is now considered དམ+ས་ instead of the unattested ད+མས་
  - fix collation of following valid Classical Tibetan syllables (\* indicating also possible suffixes): གནབ་ གནར་ གནལ་ བགང་ དགི\*་ བགང་ བགབ་ བགལ་ བགི\*་ བགུ\*་ མགག་ མགང་ མགད་ མགབ་ མགའ་ མགི\*་ དངད་ དངབ་ དངའ་ དངལ་ དངི\*་ དངེ\*་ མངང་ མངད་ མངབ་ མངི\*་ མངུ\*་ མངེ\*་ གདད་ བདག་ བདང་ བདད་ བདབ་ བདི\*་ མདད་ མདབ་ མདལ་ མདས་ མདི\*་ གནབ་ གནར་ གནལ་ གནི\*་ གནེ\*་ མནད་ མནས་ མནི\*་ དཔི\*་ དཔོ\*་ དབི\*་ འབས་ དམད་ དམབ་ དམལ་ དམོ\*་ བསའ་ and བསས་
  - fix rule containing twice the same code (U+0F39)
+ - fix the order of ཊ, ཋ, ཌ, ཎ and ཥ so that it complies with the order of most dictionaries (བོད་རྒྱ་ཚིག་མཛོད་ཆེན་མོ། and dictionaries by the Dzongkha Development Commission)
 
 ### Added
- - many common sanskrit words (ཀརྨ་, པདྨ་, etc.) are now sorted in the same order as in the བོད་རྒྱ་ཚིག་མཛོད་ཆེན་མོ།. For more details, see first 23 lines of rules.txt.
+ - many sanskrit words (ཀརྨ་, པདྨ་, etc.) are now sorted in the same order as in most dictionaries. For more details, see first 23 lines of rules.txt
  - U+0F62 = U+0F6A when followed with U+0F99 or U+0FB3 due to graphical equivalence
  - invalid vowel combinations: U+0F7B = U+0F7A U+0F7A and U+0F7D = U+0F7C U+0F7C
  - add theoretically possible but unattested དགྭ བགྭ མགྭ འགྭ གདྭ མདྭ འདྭ གནྭ མནྭ དམྭ and གསྭ
