@@ -16,7 +16,6 @@
 &སར<སརྒ
 &ཨར<ཨརྒ<ཨརྱ=ཨཪྱ
 &ཨས<ཨསྨ
-&སིང<སིངྒྷ<སིད
 # Marks (seconadry different, with low equal primary weight after Lao)
 &[before 1]ཀ<།<<༎<<༏<<༐<<༑<<༔<<༴<་=༌
 &ཀ<<ྈྐ<ཫ<དཀ<བཀ<རྐ<ལྐ<སྐ<བརྐ<བསྐ
