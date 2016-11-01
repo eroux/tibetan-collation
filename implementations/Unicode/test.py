@@ -26,7 +26,8 @@ def testOrder(argList, testName):
 
 # Tests corresponding to all the prefix+superscript+main+suffix+second suffix possibilities,
 # see https://github.com/eroux/tibetan-spellchecker/blob/master/doc/standard-syllable-structure.md
-testOrder("ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ", "letters")
+testOrder("a ໆ ཀ ཨ က", "global unicode range")
+testOrder("ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ", "letters")
 testOrder("ཀ ཀྭ ཀྱ ཀྲ ཀླ དཀ དཀྱ དཀྲ བཀ བཀྱ བཀྲ བཀླ རྐ རྐྱ ལྐ སྐ སྐྱ སྐྲ བརྐ བརྐྱ བསྐ བསྐྱ བསྐྲ", "letter ཀ")
 testOrder("ཁ ཁྭ ཁྱ ཁྲ མཁ མཁྱ མཁྲ འཁ འཁྱ འཁྲ", "letter ཁ")
 testOrder("ག གྭ གྱ གྲ གྲྭ གླ དགྱ དགྲ བགྱ བགྲ མགྱ མགྲ འགྱ འགྲ རྒ རྒྱ ལྒ སྒ སྒྱ སྒྲ བརྒ བརྒྱ བསྒ བསྒྱ བསྒྲ", "letter ག")
