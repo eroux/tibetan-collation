@@ -12,17 +12,17 @@ The version numbers are those of the [CLDR](http://cldr.unicode.org/). It follow
  - fix the order of ཊ, ཋ, ཌ, ཎ and ཥ so that it complies with the order of most dictionaries (བོད་རྒྱ་ཚིག་མཛོད་ཆེན་མོ། and dictionaries by the Dzongkha Development Commission)
 
 ### Added
- - many sanskrit words (ཀརྨ་, ཀལྤ་, etc.) are now sorted in the same order as in most dictionaries. For more details, see first 23 lines of rules.txt
+ - many sanskrit words (ཀརྨ་, ཀལྤ་, etc.) are now sorted in the same order as in most dictionaries. For more details, see first lines of rules.txt
  - U+0F62 = U+0F6A when followed with U+0F99 or U+0FB3 due to graphical equivalence
  - invalid vowel combinations: U+0F7B = U+0F7A U+0F7A and U+0F7D = U+0F7C U+0F7C
  - add theoretically possible but unattested དགྭ བགྭ མགྭ འགྭ གདྭ མདྭ འདྭ གནྭ མནྭ དམྭ and གསྭ
  - add U+0F6B (ཫ) after U+0F40 (ཀ) and U+0F6C (ཬ) after U+0F62 (ར)
  - add U+0F8B<<U+0F8C<<U+0F8D<<U+0F8E<<U+0F8F
- - add shorthands for U+0F42,U+0F66 (U+0F4A or U+0F4C)
 
 ### Changed
  - U+0F82 U+0F83 are classified with ང instead of མ
  - treat U+0F71 as a vowel mark
+ - remove reference to Lao
 
 
 ## CLDR29:
