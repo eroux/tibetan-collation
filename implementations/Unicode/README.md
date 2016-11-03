@@ -8,7 +8,7 @@ The most simple implementation should be provided with recent OSs through [CLDR]
 
 If you want to use the rules.txt file directly, the easiest way to use them is to install Python 3 and [PyICU](http://pyicu.osafoundation.org/).
 
-If you have ICU52, you must use the `rules-icu52.txt` file, due to some changes in the collation algorithm implementation.
+If you have ICU52, you must use the `rules-icu52.txt` file, due to some changes in the collation algorithm implementation (see [icu bug #12834](http://bugs.icu-project.org/trac/ticket/12834))
 
 # Tests
 
@@ -17,6 +17,11 @@ To run the tests, simply run `./test.py`.
 # Changes
 
 See [CHANGELOG.md](CHANGELOG.md).
+
+# CLDR ticket links
+
+- [#8506](http://unicode.org/cldr/trac/ticket/8506)
+- [#9895](http://unicode.org/cldr/trac/ticket/9895)
 
 # TODO
 
