@@ -78,6 +78,7 @@ testOrder("ཀིག ཀིགས ཀིང ཀིྃ ཀིངས ཀིད ཀ
 # testOrder("ཀཀ ཀཁ ཀག ཀགས ཀང ཀངས ཀཉ ཀཏ ཀཊ ཀཐ ཀཋ ཀད ཀཌ ཀན ཀཎ ཀནད ཀཔ ཀཕ ཀབ ཀབས ཀམ ཀཾ ཀམས ཀཙ ཀཚ ཀཛ ཀཝ ཀའ ཀའང ཀའན ཀའམ ཀའར ཀའས ཀའི ཀའིམ ཀའིའོ ཀའིས ཀའུ ཀའུའི ཀའུའིའོ ཀའུར ཀའུས ཀའེ ཀའོ ཀཡ ཀར ཀརད ཀལ ཀལད ཀཤ ཀཥ ཀས ཀཧ", "suffixes (Di Jiang) (fixed and augmented)") # not sure about the order of ཀན ཀཎ ཀནད
 testOrder("ཀྙ ཀྥ ཀྭ ཀྱ ཀྱྭ ཀྱྲ ཀྲ ཀྲྭ ཀྲྱ ཀླ ཀྵ ཀྷ ཀྷྭ ཀྷྲ", "subscripts (Di Jiang)")
 testOrder("ཀག ཀགས ཀང ཀྃ ཀངས ཀད ཀམ ཀཾ ཀམས ཀའ", "suffixes and contracted suffixes")
+testOrder("ཏོལ་ ཊ་ ཊམ་ ཊིའུ་ ཊཱིཀ་ ཏྭོན་", "sanskrit reversed letters, TDC p. 1032")
 # testOrder("ང་ མངར་ མང⁠ས་ མངི་ མ་ མང་ མངས་ མད་", "non-standard disambiguation with WJ") # special rules are needed for that
 testOrder("ཀང་ ཀར་ལུགས། ཀརྐ་ཊ། ཀརྨ་ ཀརྵ་ ཀལ་ ཀལྤ་ ཀས་ ཀསྨིར་ ཀི་", "TDC p. 9-11")
 testOrder("གངས་ལྷགས། གཉྫིར། གད།", "TDC p. 347")
