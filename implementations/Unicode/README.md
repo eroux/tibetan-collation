@@ -10,6 +10,8 @@ The most simple implementation should be provided with recent OSs through [CLDR]
 
 If you want to use the rules.txt file directly, the easiest way to use them is to install Python 3 and [PyICU](http://pyicu.osafoundation.org/).
 
+If you have ICU52, you must use the `rules-icu52.txt` file, due to some changes in the collation algorithm implementation.
+
 # Tests
 
 To run the tests, simply run `./test.py`.
