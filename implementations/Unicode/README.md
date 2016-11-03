@@ -22,7 +22,3 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 - [#8506](http://unicode.org/cldr/trac/ticket/8506)
 - [#9895](http://unicode.org/cldr/trac/ticket/9895)
-
-# TODO
-
-- test da drag, and da drag disambiguation
