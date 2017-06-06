@@ -18,7 +18,8 @@ To run the tests, simply run `./test.py`.
 
 See [CHANGELOG.md](CHANGELOG.md).
 
-# CLDR ticket links
+# Ticket links
 
-- [#8506](http://unicode.org/cldr/trac/ticket/8506)
-- [#9895](http://unicode.org/cldr/trac/ticket/9895)
+- [CLDR #8506](http://unicode.org/cldr/trac/ticket/8506) (link seems dead)
+- [CLDR #9895](http://unicode.org/cldr/trac/ticket/9895)
+- [ICU #13224](http://bugs.icu-project.org/trac/ticket/13224)
