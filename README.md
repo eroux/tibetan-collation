@@ -7,4 +7,5 @@ without the precious help from Åke Persson and [Esukhia](http://esukhia.org/).
 
 ### See Also
 
-- [tibetan-sort-js](https://github.com/BuddhistDigitalResourceCenter/tibetan-sort-js), a JavaScript implementation based on the principles described here, not implementing them all.
+- [tibetan-sort-js](https://github.com/BuddhistDigitalResourceCenter/tibetan-sort-js), a JavaScript implementation based on the principles described here, not implementing them all (the README contains links to various bug reports)
+- this [bug report in GlibC](https://sourceware.org/bugzilla/show_bug.cgi?id=21547)
