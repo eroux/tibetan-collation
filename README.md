@@ -9,3 +9,7 @@ without the precious help from Åke Persson and [Esukhia](http://esukhia.org/).
 
 - [tibetan-sort-js](https://github.com/BuddhistDigitalResourceCenter/tibetan-sort-js), a JavaScript implementation based on the principles described here, not implementing them all (the README contains links to various bug reports)
 - this [bug report in GlibC](https://sourceware.org/bugzilla/show_bug.cgi?id=21547)
+
+### TODO
+
+- inspect [this dictionary](https://www.tbrc.org/#!rid=W3CN1657) for Sanskrit alphabetical order
